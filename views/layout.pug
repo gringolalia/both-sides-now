@@ -3,8 +3,9 @@ html
 	head
 		title Both Sides of Cirrus Clouds
 		meta(name='viewport' content='width=device-width,initial-scale=1')  
-		link(rel='stylesheet', href='/stylesheets/style.css')
-		link(rel='stylesheet', href='https://unpkg.com/cirrus-ui')
+		link(rel='stylesheet', href='node_modules/cirrus-ui/dist/cirrus-core.css')
+		link(rel='stylesheet', href='node_modules/cirrus-ui/dist/cirrus.css')
+		link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/cirrus-ui@0.5.4/dist/cirrus.min.css')
 		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css')
 		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons')
 
@@ -18,7 +19,7 @@ html
 				font-style: normal;
 			}
 
-			 h1, h2, h3, h4, h5, h6 {
+			 h1, h2, h3, h4, h5, h6, .nav-item, .nav-dropdown-link, .nav-item.selected {
 				font-family: 'News Cycle', sans-serif;
 				font-weight: 300 !important;
 				font-style: normal;
@@ -34,5 +35,5 @@ html
 				vertical-align: middle;
 			}
 
-			body
+	body
 		block content
